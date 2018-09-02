@@ -10,6 +10,7 @@ driver.get(playListUrl)
 playlistPage = PlaylistPage()
 videoPage = playlistPage.clickFirstVideo()
 app = App()
+DriverFactory.getDriver().close()
 
 
 
